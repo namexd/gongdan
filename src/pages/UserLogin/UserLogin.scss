@@ -1,0 +1,76 @@
+.login {
+  height: 100vh !important;
+}
+
+.login_title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 40px;
+  padding-left: 25px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.login_small_title {
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.login_left {
+  width: 420px;
+  height: 420px;
+  float: right;
+
+  img {
+    width: 420px;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+  }
+}
+
+.login_card {
+  width: 355px;
+  border-radius: 0 5px 5px 0;
+  border: 0;
+  padding: 15px;
+}
+
+.fonSize18 {
+  font-size: 18px;
+
+  img {
+    vertical-align: middle;
+  }
+}
+
+.iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+.login .lw-flex-center {
+  position: relative;
+  height: 100vh;
+  min-height: 675px;
+  background: linear-gradient(to top right, rgb(47, 128, 237), rgb(86, 204, 242), rgb(47, 128, 237));
+}
+
+.login_footer {
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.lw-flex-center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
